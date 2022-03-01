@@ -10,7 +10,7 @@ This's cross chain asset contract info on <strong>TESTNET</strong>, it's used to
 | :----------------------------------------- | :-------------------------------------------- | :---------------------------------------- | :------------------------------------ | :----------------------------------- |
 | **[Bsc-79](README_TestNet.md#BSC)** | **[Heco-7](README_TestNet.md#HECO)** | **[Palette-107](README_TestNet.md#Palette)**        | **[Ok-200](README_TestNet.md#Ok)** | **Curve-82**  |
 | **[Neo N3-88](README_TestNet.md#NeoN3)** | **[Polygon-202](README_TestNet.md#Polygon)**           | **[Zilliqa-111](README_TestNet.md#Zilliqa)**       | **[Arbitrum-205](README_TestNet.md#Arbitrum)** | **[xDAI-206](README_TestNet.md#xDAI)**        |
-| **[Avalanche-209](README_TestNet.md#Avalanche)**    | **[Fantom-208](README_TestNet.md#Fantom)**             | **[Optimistic-207](README_TestNet.md#Optimistic)** | **[Metis-300](README_TestNet.md#Metis)**       | **[Goerli-502](README_TestNet.md#Goerli)** |
+| **[Avalanche-209](README_TestNet.md#Avalanche)**    | **[Fantom-208](README_TestNet.md#Fantom)**             | **[Optimistic-210](README_TestNet.md#Optimistic)** | **[Metis-300](README_TestNet.md#Metis)**       | **[Goerli-502](README_TestNet.md#Goerli)** |
 | **[Rinkeby-402](README_TestNet.md#Rinkeby)** | **[Kovan-302](README_TestNet.md#Kovan)** | **[Pixie-316](README_TestNet.md#Pixie)** |  **[Boba-400](README_TestNet.md#Boba)** |**[Oasis-500](README_TestNet.md#Boba)** |  |
 
 ### Quick Index
@@ -361,12 +361,15 @@ This's cross chain asset contract info on <strong>TESTNET</strong>, it's used to
 | ECCD       | 0xbA6F835ECAE18f5Fc5eBc074e5A0B94422a13126 | Cross Chain Data contract hash          |
 | ECCM       | 0xC8042579D6b60E0e35161F228827E3Fa0F51d5B6 | Cross Chain Manager contract hash       |
 | LockProxy | 0x8a85143cA6ec1e181C3A5Ae4042ca999bFbF571B | The lock proxy bridge contract hash     |
-| LockProxyPIP4 | 0x30e6ec356ceF1cfe3c7e14392EA08448382327bD | The lock proxy PIP4 bridge contract hash     |
-| WrappeV2| 0xE324EF8cd52833DD117e8ca87b483E78b30C3696 |                                         |
-| WrapperV3 | 0xD5a240f7F755bCa2aE992E807b06d24eB6DF7C12 |                                         |
+| LockProxyPIP4 | 0x30e6ec356ceF1cfe3c7e14392EA08448382327bD | The lock proxy PIP4 bridge contract hash |
+| WrappeV2| 0xE324EF8cd52833DD117e8ca87b483E78b30C3696 |                                            |
+| WrapperV3 | 0xD5a240f7F755bCa2aE992E807b06d24eB6DF7C12 |                                          |
 | NB         | 0x3AA03cD463D1e05e05F717a721bE1bC98dA54917 | Token                                   |
-| Boba | 0x6A6676813d3D4317442CF84667425C13553F4a76|  Boba Token                                   |
-| LP Boba | 0x0a80C08081dAa3B9786B9661F83123C2772c5Df1 |  LP Boba Token                                   |
+| Boba | 0x6A6676813d3D4317442CF84667425C13553F4a76|  Boba Token                                    |
+| LP Boba | 0x0a80C08081dAa3B9786B9661F83123C2772c5Df1 |  LP Boba Token                             |
+|NFT Lock Proxy|0x9bEF1AE7304D3d2F344ea00e796ADa18cE1beb03|                                         |
+|NFT Wrapper   |0x25BB8E9C0Cc03B30d09769735208a47d389Ff36c|                                         |
+|NFT Query     |0x6fd13dd4181dDb0f7463e19caC659FD3e9FB8a82|                                         |
 
 ###### [Back to top](README_TestNet.md#menu)
 ## Kovan
@@ -431,7 +434,7 @@ This's cross chain asset contract info on <strong>TESTNET</strong>, it's used to
 | NEO(N3)  |      88       |      88      |
 | Arbitrum |       0       |     205      |
 |   Xdai   |       0       |     206      |
-|Optimistic|       0       |     207      |
+|Optimistic|       0       |     210      |
 |  Fantom  |       0       |     208      |
 | Avalanche|       0       |     209      |
 |  Metis   |       0       |     300      |

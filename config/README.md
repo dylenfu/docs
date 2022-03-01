@@ -11,7 +11,7 @@ This's cross chain asset contract info ONLY in <strong>MAINNET</strong> mode, it
 | **[Bsc-6](README.md#Binance-Smart-Chain)** | **[Heco-7](README.md#Huobi-Eco-ChainHECO)** | **[Palette-8](README.md#Palette)**        |                                       | **[Curve-10](README.md#Curve)**      |
 |                                            | **[OKEx-12](README.md#OKEx)**               |                                           | **[Neo N3-14](README.md#Neo-N3)**     | **Heimdall-15**                      |
 |                                            | **[Polygon-17](README.md#Polygon)**         | **[Zilliqa-18](README.md#Zilliqa)**       | **[Arbitrum-19](README.md#Arbitrum)** | **[xDAI-20](README.md#xDAI)**        |
-| **[Avalanche-21](README.md#Avalanche)**    | **[Fantom-22](README.md#Fantom)**           | **[Optimistic-23](README.md#Optimistic)** | **[Metis-24](README.md#Metis)**       |                                      |
+| **[Avalanche-21](README.md#Avalanche)**    | **[Fantom-22](README.md#Fantom)**           | **[Optimistic-23](README.md#Optimistic)** | **[Metis-24](README.md#Metis)**       |  **[Oasis-26](README.md#Oasis)**                |
 
 ### Quick Index
 
@@ -31,6 +31,7 @@ HECO | <ul><li> 0x7a1979f8dc3c1e25f506c77c4c0dd0c2113b6cd8</li><li>0x8c5e8eb7eb3
 BSC | <ul><li> 0xa3c419D2b37105A4ebE4f42698d220E59295a190</li><li>0x446f136f81196b5708f3751aebd8025abbae8790</li><li>0xf5340ea4651470df9d23834fb382a5e532addae9</li><li>0xa0872c79900fed7a1a41e046d3665806a14c3bab</li><li>0x5ad1361f2957b717cc3055bc20c7095b989a2c31</li><li>0x680766d06024619425b5a8feded05c2032932317</li><li>0x0da171a973608cad5bb78585b2ae5373fad2c483</li></ul>
 OK | <ul><li> 0x0da171a973608cad5bb78585b2ae5373fad2c483</li><li>0xffca5f560be8ebabfe19cd8a6150f8978eb560df</li></ul>
 NEO | <ul><li>ALjgBt3QdfoENa11e9yToy3bn16b685EZS</li></ul>
+NEO3 | <ul><li>NdAKEWZV5mpTsPtmmzY2utfxiashuVjXZw</li></ul>
 ONT | <ul><li>AM5F45WQyVSCYVpVbu8RK6cZZgk1GdDg2Q</li></ul>   
 Polygon | <ul><li>0x5e46b85ad7c337068ad17efc82b4d9ff74ccd502</li> <li>0x2b813b392ea7e3c75eb66cd94d525b478e66a5d9</li> <li>0x5e46b85ad7c337068ad17efc82b4d9ff74ccd502</li><li>0x2b813b392ea7e3c75eb66cd94d525b478e66a5d9</li><li>0x8D48BAf5463B389bF2F32De9e26A450b1207E90F</li><li>0xCcF41F705063c6Eb6fF69FCB8F96Aaae6a9B07E5</li><li>0xf0f2653225B262Bc4a0dF1C983680Ee75aD9dD92</li><li>0x37DaFcb7eE0829439345Ff9cD0dFC2731e8D1c06</li><li>0xe74F3BA28e4d5358b8B8C5628d64d1d49F497ce6</li><li>0x37DaFcb7eE0829439345Ff9cD0dFC2731e8D1c06</li><li>0xC3bb9f891C90B2C6A6ef08514Fd382c2608a1782</li><li>0x5B3D4b4721999330186d93Bf7A9701d4a038029f</li></ul>
 Arbitrum | <ul><li> 0xdb7e0850cd3c59313dee903a6c7a862499621bef</li><li>0x3ce0372afcd3e44ccbf1378a68bcd83cafd25530</li></ul>
@@ -86,6 +87,7 @@ pWING| 0xDb0f18081b505A7DE20B18ac41856BCB4Ba86A1a | pWING
 sUSD| 0x57ab1ec28d129707052df4df418d58a2d46d5f51 | sUSD
 PAX| 0x8e870d67f660d95d5be530380d0ec0bd388289e1 | PAX
 pNEO| 0x381225768DD2bd60D70482B51109D0DEFeE92503 | pNEO
+GAS| 0xaf42337192ddfaad6c9d8e519b3bf8f8b330f50a | Neo N3 GAS
 pFLM | 0xC6061CA95ad0378bDb12381206a1D723D14b72c4 | pFLM
 UNI | 0x1f9840a85d5af5bf1d1762f925bdaddc4201f984 | UNI
 OKB | 0x75231f58b43240c9718dd58b4967c5114342a86c | OKB
@@ -247,6 +249,7 @@ NFT Lock Proxy | 0x2cdfc90250EF967036838DA601099656e74bCfc5 | The NFT lockc prox
 NFT Wrapper | 0xe2bD9dD8FAF5C4C2087Ab82eC7E63F619CcAa152 | The NFT Wrapper contract hash
 NFT Query | 0x02015dBb2Dc25Cc7313D7EDb4785c2C46F3B7FD2 | The NFT profile query contract hash
 pNEO | 0xb119b3b8e5e6eeffbe754b20ee5b8a42809931fb | NEO mapping asset in BSC
+GAS | 0x126f5a96ac0d9eb19dfb10edf5be85f897a7bb52 | GAS mapping asset in BSC
 pETH | 0xb9478391eec218defa96f7b9a7938cf44e7a2fd5 | ETH mapping asset in BSC
 pUSDT|  0x48389753b64C9e581975457332E60dC49325A653 | USDT mapping asset in BSC
 pDAI | 0x8F339ABc2A2a8a4D0364C7e35F892c40FBFb4BC0 | DAI mapping asset in BSC
@@ -335,6 +338,7 @@ NFT Lock Proxy | 0x2cdfc90250EF967036838DA601099656e74bCfc5 | The NFT lockc prox
 NFT Wrapper | 0xe2bD9dD8FAF5C4C2087Ab82eC7E63F619CcAa152 | The NFT Wrapper contract hash
 NFT Query | 0x56C9491F2aC2Bc623AB890D2Db16C98E1aBd1FBd | The NFT profile query contract hash
 pNEO | 0x6514a5ebff7944099591ae3e8a5c0979c83b2571 | NEO mapping asset in Heco
+GAS | 0x006e5345c7dcfdf3444ccb052339125aaa4e63a4 | GAS mapping asset in Heco
 pETH | 0x8c0859c191d8f100e4a3c0d8c0066c36a0c1f894 | ETH mapping asset in Heco
 pDAI | 0x643f3914fB8eDE03d932c79732746a8c11Ae470A | DAI mapping asset in Heco
 pUSDC | 0xe85631B817923487ba40263144eEfF532Cff10a2 | USDC mapping asset in Heco
@@ -468,7 +472,7 @@ Type | Contract Hash | Desc
 CCMP | 0x5366ea2b5b729ff3cef404c2408c8c60cc061b71 | Cross Chain Manager Proxy contract hash 
 ECCD | 0x7cea671dabfba880af6723bddd6b9f4caa15c87b | Polygon Cross Chain Data contract hash
 ECCM | 0xB16FED79a6Cb9270956f045F2E7989AFfb75d459 | Polygon Cross Chain Manager contract hash
-Lock Proxy| 0x28ff66a1b95d7cacf8eded2e658f768f44841212 | Polygon Asset Proxy contract hash
+Lock Proxy| 0x28FF66a1B95d7CAcf8eDED2e658f768F44841212 | Polygon Asset Proxy contract hash
 Poly Wrapper | 0x4493fb5dc195900938CC23096C7EEdEfc434e283 | lock entrance for auto cross chain tx with fee 
 Wrapper 2.0 | 0xB88f13682F3C602aCD84B4b2eEB96A9DD75Afd89 | wrapper_v2 that take native asset as fee
 NFT Lock Proxy | 0x359596463F4F4e5969330D74504A614c22885D62 | The NFT lockc proxy contract hash
@@ -484,6 +488,7 @@ ONG | 0x727e6cA466a7522D54F1f0b97a344f64e65d2767 | ONG
 CBC | 0x14e449473251F2D9D4eA5D26199F002C214b2475 | CBC
 WIT | 0xaacd1ba28e00a480ed7cb5284b7719c0bd694a94 | WIT
 TSX | 0xF11de26883EB2EBF9877a01703DDC1eB619094E6 | TSX
+GAS | 0x22506cf648764800ac6913fe5e9e34a2621b7e08 | Neo N3 GAS
 ###### [Back to top](README.md#menu)
 ## Note 
 `B` means big-endian, we can search the contract transaction history in corresponding explorer.
@@ -507,8 +512,8 @@ NFT Lock proxy | 0xdCA22CbA4a2d3dA3883b479f824F2147efed1718 | Contract hash of p
 NFT Wrapper | 0x41985E2A8826233618392e38d46d2060fbCC3F2A | Contract hash of palette NFT native wrapper
 NFT Query | 0x0F05299e6ab0FbB3258296d3Ae7bF6Ae53A0c414 | Contract hash of palette NFT query
 NFT Fee Collector | 0x0E860F44d73F9FDbaF5E9B19aFC554Bf3C8E8A57 | fee collector address of palette NFT wrapper
-feiyuan| 0x0000000000000000000000000000000000001003 | Test asset hash of palette NFT contracts
-FY(T) | 0x0000000000000000000000000000000000001009 | Test asset hash of palette NFT contracts
+feiyuan| 0x0000000000000000000000000000000000001003 | Test asset hash of palette NFT contract
+FY(T) | 0x0000000000000000000000000000000000001009 | Test asset hash of palette NFT contract
 PLT Token| 0x0000000000000000000000000000000000000103 | Palette native token contract address
 
 ###### [Back to top](README.md#menu)
@@ -610,6 +615,16 @@ BOBA| 0xa18bf3994c0cc6e3b63ac420308e5383f53120d7 | BOBA
 LP BOBA| 0x5906777d34257a2b479c291871c9bfdfb922d67d | LP BOBA
 
 ###### [Back to top](README.md#menu)
+## Oasis
+| Type       | Contract Hash                              | Desc                                    |
+| ---------- | ------------------------------------------ | --------------------------------------- |
+| CCMP       | 0x26041DBe06Aa9B765E68e82863e280b67Ba41381 | Cross Chain Manager Proxy contract hash |
+| ECCD       | 0x21A053E85E636D5Db1A2fb397489e26B619D514b | Cross Chain Data contract hash          |
+|CCM         |0x0C611b42B78e7b5760B8EB9DA9fA1fb34Db86C2c  |Eth Cross Chain Manager                  |
+|LockProxy   |0x2BC2B7E2D90B1b23711D39470Ff3E4f1f545bCCd  |                                         |
+|WrapperV3   |0xbaf396bD590D23D4F4dF5f21b09bA9F869C4B7A6  |                                         |
+   
+###### [Back to top](README.md#menu)
 ## Router And ChainId
 Type | Router Number | ChainId
 :-:|:-:|:-:
@@ -634,6 +649,7 @@ Fantom | 0 | 22
 Optimistic | 0 | 23
 Metis | 0 | 24
 Boba | 0 | 25
+Oasis | | 26
 ###### [Back to top](README.md#menu)
 ## Relayers
 
