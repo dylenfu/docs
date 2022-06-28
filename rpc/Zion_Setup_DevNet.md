@@ -76,3 +76,5 @@ Node Index | IP | Rpc Port | Ws Port | Mode
 5|124.156.214.163|22001|null|Miner
 6|124.156.210.112|22000|null|Miner
 7|124.156.210.112|22001|22002|Full
+
+node7 support websocket services of `web3,eth`.
