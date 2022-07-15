@@ -13,7 +13,8 @@ This's cross chain asset contract info ONLY in <strong>MAINNET</strong> mode, it
 |                                            | **[Polygon-17](README.md#Polygon)**         | **[Zilliqa-18](README.md#Zilliqa)**       | **[Arbitrum-19](README.md#Arbitrum)** | **[Gnosis-20](README.md#Gnosis)**          |
 | **[Avalanche-21](README.md#Avalanche)**    | **[Fantom-22](README.md#Fantom)**           | **[Optimism-23](README.md#Optimism)** | **[Metis-24](README.md#Metis)**       | **[Boba-25](README.md#Boba)**          |
 | **[Oasis-26](README.md#Oasis)**            | **[Harmony-27](README.md#Harmony)**         | **[Hsc-28](README.md#Hsc)**               | **[Bytom-29](README.md#Bytom)**       | **[Kcc-30](README.md#Kcc)**            |
-| **[Starcoin-31](README.md#Starcoin)**      |**[Kava-32](README.md#Kava)**                | **[Cube-35](README.md#Cube)**             |
+| **[Starcoin-31](README.md#Starcoin)**      |**[Kava-32](README.md#Kava)**                | **[Cube-35](README.md#Cube)**             | **[Celo-36](README.md#Celo)**             | **[Clover-37](README.md#Clover)**             |
+
 
 ### Quick Index
 
@@ -41,6 +42,14 @@ This's cross chain asset contract info ONLY in <strong>MAINNET</strong> mode, it
 | Metis      | <ul><li> 0xe682225aFff2CB1C5beB6E3dd0ACF523bE330cf7</li><li>0x21b59D73B4716a53cFE7804Baa31D0C1f75AE0cb</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Boba       | <ul><li>0xEd144b86AAacc3255d93D90Ee6675cC79D82b67E</li><li>0x21A633Bae44dBd522adFcdF0F2A3e9bD6567DA65</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Oasis      | <ul><li>0x573703ac4206aa1aeC5fbaCD712e13Bb118C0e34</li><li>0xb75ffd07c4dfb07083f8cb76d866d5b1479735ae</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Bytom      | <ul><li>0x9815eAA11dB4d1C171800b69BE041114b5Eb2CA3</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Cube       | <ul><li>0x4a0279d31BffB7F1368CaC09a0499C76924D0283</li><li>0x4C417C8E3589D4a0574CB6fFa7C757CF3b27dedC</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| HSC        | <ul><li>0x0d939539D58dC645B181a7C3Da752C3507174e2c</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Harmony    | <ul><li>0xF049438CDF7b351B25Daaac33905C346CbCc92e7</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| KCC        | <ul><li>0x0AFC9aB11109A0Ee2C82f504dBB8dc276F11379b</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Kava      | <ul><li>0xcAa5AcFBC3A1723bE37b965AF0DAc8B4A44aE9Df</li><li>0x3f68995899eCf008318855C1283A4A00e658bB9F</li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Celo      | <ul><li>0x2b3CF1eD6BdD21E96e26224C6D585B694e13873B</li><li>0xBfeF3A72e2e2Ab88d483b232f4C3a67E4487e73B</li></ul>
+| Clover      | <ul><li>0x04a0fd916F08b3fc1D3300E142ae7a2d85602F7f</li><li>0x2309d84C5601acAF95fF3138084e577d23592fBF</li></ul>
 
 ###### [Back to top](README.md#menu)
 ## Decentralized Application MainNet Nodes
@@ -573,16 +582,18 @@ Type | Denom (coin name) | Asset/Contract Hash | Desc
 ###### [Back to top](README.md#menu)
 ## Avalanche
 
-| Type         | Contract Hash                              | Desc                                              |
-|--------------|--------------------------------------------|---------------------------------------------------|
-| CCMP         | 0xE3D0FB6E3cB5DA61EB18b06D035052441009d1E6 | Avalanche Cross Chain Manager Proxy contract hash |
-| CCM          | 0x2aA63cd0b28FB4C31fA8e4E95Ec11815Be07b9Ac | Avalanche Cross Chain Manager contract hash       |
-| CCD          | 0x6c2A37Cf23E21EF3cFC45FdE2C0E1d3a9e7365f9 | Avalanche Cross Chain Data contract hash          |
-| Lock Proxy   | 0xd3b90E2603D265Bf46dBC788059AC12D52B6AC57 | Avalanche Lock Proxy contract hash                |
-| Swapper      | 0xb68C0D092842a4a0272867D89245FCD7e7fcA3Eb | Avalanche Swapper contract hash                   |
-| Poly Wrapper | 0x287Bd66753f0cA8e9C2171D782DF39e4C28cfd65 | lock entrance for auto cross chain tx with fee    |
-| WrapperV2    | 0xf06587dE89e289Ce480CDf21109A14547eb33A0d | wrapper_v2 that take native asset as fee          |
-| COOK         | 0x637afeff75ca669fF92e4570B14D6399A658902f | COOK                                              |
+| Type                   | Contract Hash                              | Desc                                              |
+|------------------------|--------------------------------------------|---------------------------------------------------|
+| CCMP                   | 0xE3D0FB6E3cB5DA61EB18b06D035052441009d1E6 | Avalanche Cross Chain Manager Proxy contract hash |
+| CCM                    | 0x2aA63cd0b28FB4C31fA8e4E95Ec11815Be07b9Ac | Avalanche Cross Chain Manager contract hash       |
+| CCD                    | 0x6c2A37Cf23E21EF3cFC45FdE2C0E1d3a9e7365f9 | Avalanche Cross Chain Data contract hash          |
+| Lock Proxy             | 0xd3b90E2603D265Bf46dBC788059AC12D52B6AC57 | Avalanche Lock Proxy contract hash                |
+| Swapper                | 0xb68C0D092842a4a0272867D89245FCD7e7fcA3Eb | Avalanche Swapper contract hash                   |
+| Poly Wrapper           | 0x287Bd66753f0cA8e9C2171D782DF39e4C28cfd65 | lock entrance for auto cross chain tx with fee    |
+| WrapperV2              | 0xf06587dE89e289Ce480CDf21109A14547eb33A0d | wrapper_v2 that take native asset as fee          |
+| COOK                   | 0x637afeff75ca669fF92e4570B14D6399A658902f | COOK                                              |
+| Avalanche Bridge-O3V2  | 0x8a05dC902D15Aea923F2C722292F5561c3496317 | Avalanche Bridge for O3V2                         |
+| Avalanche Wrapper-O3V2 | 0x5ae7ff97F40DF101edABa31D5f89b70f600d9820 | Avalanche Wrapper for O3V2                        |
 
 ###### [Back to top](README.md#menu)
 ## Fantom
@@ -616,16 +627,18 @@ Type | Denom (coin name) | Asset/Contract Hash | Desc
 ###### [Back to top](README.md#menu)
 ## Metis
 
-| Type            | Contract Hash                              | Desc                                          |
-|-----------------|--------------------------------------------|-----------------------------------------------|
-| CCMP            | 0xE3D0FB6E3cB5DA61EB18b06D035052441009d1E6 | Metis Cross Chain Manager Proxy contract hash |
-| CCM             | 0x2aA63cd0b28FB4C31fA8e4E95Ec11815Be07b9Ac | Metis Cross Chain Manager contract hash       |
-| CCD             | 0x6c2A37Cf23E21EF3cFC45FdE2C0E1d3a9e7365f9 | Metis Cross Chain Data contract hash          |
-| Lock Proxy      | 0xeFB5a01Ed9f3E94B646233FB68537C5Cb45e301D | Metis Lock Proxy contract hash                |
-| Lock Proxy-PIP4 | 0xbE46E4c47958A79E7F789ea94C5D8071a0DeE31e | Metis Lock Proxy contract hash                |
-| WrapperV3       | 0xFbFDfc95B8EAe4719Ae7D7b94e6F7aCC2DC2e0D7 | wrapper_v2 that take native asset as fee      |
-| Metis           | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000 | Metis                                         |
-| LP Metis        | 0xF3eCc2FF57DF74aE638551b060864717EFE493d2 | LP Metis                                      |
+| Type               | Contract Hash                              | Desc                                          |
+|--------------------|--------------------------------------------|-----------------------------------------------|
+| CCMP               | 0xE3D0FB6E3cB5DA61EB18b06D035052441009d1E6 | Metis Cross Chain Manager Proxy contract hash |
+| CCM                | 0x2aA63cd0b28FB4C31fA8e4E95Ec11815Be07b9Ac | Metis Cross Chain Manager contract hash       |
+| CCD                | 0x6c2A37Cf23E21EF3cFC45FdE2C0E1d3a9e7365f9 | Metis Cross Chain Data contract hash          |
+| Lock Proxy         | 0xeFB5a01Ed9f3E94B646233FB68537C5Cb45e301D | Metis Lock Proxy contract hash                |
+| Lock Proxy-PIP4    | 0xbE46E4c47958A79E7F789ea94C5D8071a0DeE31e | Metis Lock Proxy contract hash                |
+| WrapperV3          | 0xFbFDfc95B8EAe4719Ae7D7b94e6F7aCC2DC2e0D7 | wrapper_v2 that take native asset as fee      |
+| Metis              | 0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000 | Metis                                         |
+| LP Metis           | 0xF3eCc2FF57DF74aE638551b060864717EFE493d2 | LP Metis                                      |
+| Metis Bridge-O3V2  | 0x8a05dC902D15Aea923F2C722292F5561c3496317 | Metis Bridge for O3V2                         |
+| Metis Wrapper-O3V2 | 0x5ae7ff97F40DF101edABa31D5f89b70f600d9820 | Metis Wrapper for O3V2                        |
 
 ###### [Back to top](README.md#menu)
 ## Boba
@@ -721,20 +734,42 @@ Type | Denom (coin name) | Asset/Contract Hash | Desc
 
 ###### [Back to top](README.md#menu)
 ## Cube
-| Type      | Contract Hash                               | Desc                                    |
-|-----------|---------------------------------------------|-----------------------------------------|
-| CCD       | 0x4D2A3234b2f2E27f03096097C4A530CAA8427681  | Cross Chain Data contract hash          |
-| CCM       | 0xab7a3CA9bDcE476F0ECC04c127CFEe0F3D212BC5  | Eth Cross Chain Manager                 |
-| CCMP      | 0x85472B4D353Cb89f86294b2e983ba44722bC0331  | Cross Chain Manager Proxy contract hash |
-| LockProxy | 0x526444013Cd4D457212fF88Fe6F8e7c995DF1E40  |                                         |
-| Wrapper   | 0x80C99516c49dB5e1F002c47c9d17ABF6208E8736  |                                         |
+| Type                  | Contract Hash                               | Desc                                    |
+|-----------------------|---------------------------------------------|-----------------------------------------|
+| CCD                   | 0x4D2A3234b2f2E27f03096097C4A530CAA8427681  | Cross Chain Data contract hash          |
+| CCM                   | 0xab7a3CA9bDcE476F0ECC04c127CFEe0F3D212BC5  | Eth Cross Chain Manager                 |
+| CCMP                  | 0x85472B4D353Cb89f86294b2e983ba44722bC0331  | Cross Chain Manager Proxy contract hash |
+| LockProxy             | 0x526444013Cd4D457212fF88Fe6F8e7c995DF1E40  |                                         |
+| Wrapper               | 0x80C99516c49dB5e1F002c47c9d17ABF6208E8736  |                                         |
+| Cube Bridge-O3V2      | 0x87aD18124819B4018288D8A94973856ebd6eEeA1  | Cube Bridge for O3V2                 |
+| Cube Wrapper-O3V2     | 0x5ae7ff97F40DF101edABa31D5f89b70f600d9820  | Cube Wrapper for O3V2                |
+
+###### [Back to top](README.md#menu)
+## Celo
+| Type                  | Contract Hash                               | Desc                                    |
+|-----------------------|---------------------------------------------|-----------------------------------------|
+| CCD                   | 0x4D2A3234b2f2E27f03096097C4A530CAA8427681  | Cross Chain Data contract hash          |
+| CCM                   | 0xab7a3CA9bDcE476F0ECC04c127CFEe0F3D212BC5  | Eth Cross Chain Manager                 |
+| CCMP                  | 0x85472B4D353Cb89f86294b2e983ba44722bC0331  | Cross Chain Manager Proxy contract hash |
+| LockProxy             | 0x526444013Cd4D457212fF88Fe6F8e7c995DF1E40  |                                         |
+| Wrapper               | 0x80C99516c49dB5e1F002c47c9d17ABF6208E8736  |                                         |
+
+###### [Back to top](README.md#menu)
+## Clover
+| Type                  | Contract Hash                               | Desc                                    |
+|-----------------------|---------------------------------------------|-----------------------------------------|
+| CCD                   | 0x4D2A3234b2f2E27f03096097C4A530CAA8427681  | Cross Chain Data contract hash          |
+| CCM                   | 0xab7a3CA9bDcE476F0ECC04c127CFEe0F3D212BC5  | Eth Cross Chain Manager                 |
+| CCMP                  | 0x85472B4D353Cb89f86294b2e983ba44722bC0331  | Cross Chain Manager Proxy contract hash |
+| LockProxy             | 0x526444013Cd4D457212fF88Fe6F8e7c995DF1E40  |                                         |
+| Wrapper               | 0x5906777d34257a2b479c291871C9BFdFB922D67D  |                                         |
 
 ###### [Back to top](README.md#menu)
 ## Router And ChainId
 |    Type    | Router Number |  ChainId  |
 |:----------:|:-------------:|:---------:|
 |  Bitcoin   |       1       |     1     |
-|  Ethereum  |       2       |     2     |
+|  Ethereum  |       0       |     2     |
 |  Ontology  |       3       |     3     |
 | Neo Legacy |       4       |     4     |
 |  Switcheo  |       5       |     5     |
@@ -755,13 +790,15 @@ Type | Denom (coin name) | Asset/Contract Hash | Desc
 |   Metis    |       0       |    24     |
 |    Boba    |       0       |    25     |
 |   Oasis    |       0       |    26     |
-|  Harmony   |      21       |    27     |
+|  Harmony   |      0       |    27     |
 |    Hsc     |      20       |    28     |
 |   Bytom    |      22       |    29     |
 |    Kcc     |       0       |    30     |
 |  Starcoin  |      18       |    31     |
 |    Kava    |      0        |    32     |
 |    Cube    |       0       |    35     |
+|    Celo    |       0       |    36     |
+|    Clover  |       0       |    37     |
 
 ###### [Back to top](README.md#menu)
 ## Relayers
